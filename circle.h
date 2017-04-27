@@ -1,5 +1,5 @@
-#ifndef eve
-#define eve
+#ifndef CIRCLE_H
+#define CIRCLE_H
 using namespace std;
 class circle
 {

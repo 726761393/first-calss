@@ -1,6 +1,6 @@
 #include<iostream>
 #include "circle.h"
-#define PI 3.1415926
+#define PI 3.1415926//¦Ð
 using namespace std;
 circle::circle()
 {

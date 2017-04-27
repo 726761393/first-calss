@@ -5,7 +5,7 @@ class circle
 {
 public:
 	circle();//无参构造方法
-	circle(int);//有参
+	circle(int);//有参构造方法
 	double getarea();//获取面积值
 private:
 	int r;//半径

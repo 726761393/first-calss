@@ -6,6 +6,7 @@ circle::circle()
 {
 	circle::r=1;
 	circle::area=PI;
+	qwe=10;
 }
 circle::circle(int r)
 {

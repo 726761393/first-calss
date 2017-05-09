@@ -6,4 +6,5 @@ int main(){
 	cin>>r;
 	circle a(r);//¹¹Ôì°ë¾¶rµÄÔ²
 	cout<<a.getarea()<<endl;
+	cin>>qwe;
 }

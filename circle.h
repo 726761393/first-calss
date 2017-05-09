@@ -1,6 +1,7 @@
 #ifndef CIRCLE_H
 #define CIRCLE_H
 using namespace std;
+int qwe;
 class circle
 {
 public:

@@ -7,6 +7,7 @@ class Random{
 public:
 	virtual void random()=0;
 	virtual void display()=0;
+	virtual ~Random();
 };
 class RandomNumber:public Random{
 public:
@@ -30,6 +31,7 @@ public:
 		if(a==1)return '-';
 		if(a==2)return '*';
 		if(a==3)return '/';
+		return 0;
 	}
 	void random(){
 		srand(time(0));
@@ -49,10 +51,10 @@ public:
 	{
 		if(ID=="Number")return new RandomNumber();
         if(ID=="Operation")return new RandomOperation();
+        return 0;
 	}
 };
 int main(){
-	int a;
     creatRandom *fy=new creatRandom;
     Random *rn=fy->factory("Number");
     Random *ro=fy->factory("Operation");
